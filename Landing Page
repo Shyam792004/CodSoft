@@ -1,1 +1,942 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>TrendyTreasure.</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#">Shop</a></li>
+        <li class="link"><a href="#">Pages</a></li>
+        <li class="link"><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav__logo">
+        <a href="#">
+          <span style="color: black">Trendy</span>
+          <span style="color: blue">Treasure</span>
+          <span style="color: black">.</span>
+        </a>
+      </div>
+      <div class="nav__icons">
+        <span>
+          <a href="#"><i class="ri-search-line"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-user-line"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-shopping-bag-line"></i></a>
+        </span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container">
+      <div class="header__content">
+        <h4>UP TO 20% DISCOUNT ON</h4>
+        <h1>
+          <span style="color: black">Trendy<span style="color: blue">Treasure</span><span>.</span>
+        </h1>
+
+        <p>
+          Discover the latest trends and express your unique style with our
+          Fashion website. Explore a curated collection of clothing,
+          accessories, and footwear that caters to every taste and occasion.
+        </p>
+        <button class="btn">EXPLORE NOW</button>
+      </div>
+      <div class="header__image">
+        <img src="header2.jpg" alt="Description" class="zoom-effect" >
+      </div>
+    </header>
+
+    <section class="section__container categories__container">
+      <h2 class="section__header">Top Categories</h2>
+      <p class="section__subheader">
+        Browse a diverse range of categories, from chic dresses to versatile
+        accessories. Elevate your style today!
+      </p>
+      <div class="categories__grid">
+        <div class="categories__card">
+          <img src="a1.jpg" alt="categories" />
+          <h4>KidsAccessories</h4>
+        </div>
+        <div class="categories__card">
+          <img src="a2.jpg" alt="categories" />
+          <h4>Gadgets</h4>
+        </div>
+        <div class="categories__card">
+          <img src="a3.jpg" alt="categories" />
+          <h4>Cosmetics</h4>
+        </div>
+        <div class="categories__card">
+          <img src="a41.jpg" alt="categories" />
+          <h4>Gaming</h4>
+        </div>
+      </div>
+    </section>
+    <section class="section__container product__container">
+      <h2 class="section__header">Trending Products</h2>
+      <p class="section__subheader">
+        Discover the Hottest Picks: Elevate Your Style with Our Curated
+        Collection of Trending Fashion Products.
+      </p>
+      <div class="product__grid">
+        <div class="product__card">
+          <img src="headphone1.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>BoatHeadphone</h4>
+            <p>$150 <s>$250</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="watch1.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>TitanSports</h4>
+            <p>$200 <s>$350</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="jeanp1.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>JeanDoor</h4>
+            <p>$350 <s>$450</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="caps.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>Caps</h4>
+            <p>$900 <s>$1200</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="girl jean.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>CoatJean</h4>
+            <p>$250 <s>$300</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="sunglass1.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>Sunglases</h4>
+            <p>$150 <s>$250</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="shoes1.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>Shoes</h4>
+            <p>$99 <s>$149</s></p>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="casual2.jpg" alt="product" />
+          <div class="product__card__content">
+            <div class="product__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+            <h4>Casual</h4>
+            <p>$250 <s>$350</s></p>
+          </div>
+        </div>
+      </div>
+      <div class="product__btn">
+        <button class="btn">Load More</button>
+      </div>
+    </section>
+
+    <section class="section__container deals__container">
+      <div class="deals__image">
+        <img src="saree.jpg" alt="deals" class="zoom-effect" />
+      </div>
+      <div class="deals__content">
+        <h5>Get Up To 20% Discount</h5>
+        <h4>Deals Of This Month</h4>
+        <p>
+          Our Women's Fashion Deals of the Month are here to make your style
+          dreams a reality without breaking the bank. Discover a curated
+          collection of exquisite clothing, accessories, and footwear, all
+          handpicked to elevate your wardrobe.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container banner__container" bgcolo>
+      <div class="banner__card">
+        <span><i class="ri-truck-line"></i></span>
+        <h4>Free Delivery</h4>
+        <p>
+          Offers convenience and the ability to shop from anywhere, anytime.
+        </p>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-money-dollar-circle-line"></i></span>
+        <h4>100% Money Back Guaranty</h4>
+        <p>
+          E-commerce have a review system where customers can share feedback.
+        </p>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-user-voice-fill"></i></span>
+        <h4>Strong Support</h4>
+        <p>
+          Offer customer support services to assist customers with queries and
+          issues.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container blog__container">
+      <h2 class="section__header">Latest From Blog</h2>
+      <p class="section__subheader">
+        Elevate your wardrobe with our freshest style tips, trends, and
+        inspiration on our blog.
+      </p>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="blog2.jpg" alt="blog" />
+          <div class="blog__card__content">
+            <h6>Timeless Elegance</h6>
+            <h4>Mastering the Art of Capsule Wardrobes</h4>
+            <p>12<sup>th</sup> August 2022</p>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="blog1.jpg" alt="blog" />
+          <div class="blog__card__content">
+            <h6>Summer Breeze</h6>
+            <h4>Unveiling the Hottest Beachwear Trends</h4>
+            <p>18<sup>th</sup> January 2023</p>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="blog31.jpg" alt="blog" />
+          <div class="blog__card__content">
+            <h6>Power Dressing</h6>
+            <h4>Navigating the World of Women's Tailoring</h4>
+            <p>25<sup>th</sup> May 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <h4>CONTACT INFO</h4>
+        <p>
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          123, London Bridge Street, London
+        </p>
+        <p>
+          <span><i class="ri-mail-fill"></i></span>
+          support@Lebaba.com
+        </p>
+        <p>
+          <span><i class="ri-phone-fill"></i></span>
+          (+012) 3456 789
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>COMPANY</h4>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Work With Us</a>
+        <a href="#">Our Blog</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+      <div class="footer__col">
+        <h4>USEFUL LINK</h4>
+        <a href="#">Help</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Dresses</a>
+      </div>
+     
+      <div class="social-icons">
+        <h4>View Us in</h4>
+        <a href="mailto:contact@example.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/1234567890" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://twitter.com/example" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/your_linkedin_username/"
+          title="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/your_github_username" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+  </body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  background-color: white;
+  --primary-color: rgb(225, 47, 47);
+  --primary-color-dark: black;
+  --text-dark: rgb(0, 60, 106);
+  --max-width-1400: 1400px;
+  --max-width-1200: 1200px;
+  --max-width-900: 900px;
+  --header-font: "Playfair Display", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width-1400);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section__subheader {
+  max-width: 500px;
+  margin: auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  border-radius: 30px;
+  /* border-color: black ; */
+  max-width: var(--max-width-1200);
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  color:white;
+  justify-content: space-between;
+}
+
+.nav__links {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.link a:hover {
+  color: var(--primary-color);
+}
+
+.nav__logo a {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.nav__logo a span {
+  color: var(--primary-color);
+}
+
+.nav__icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav__icons span a {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
+
+.nav__icons span a:hover {
+  color: var(--primary-color);
+}
+
+.header__container {
+  min-height: 650px;
+  background-color: var(--primary-color-light);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  text-color:black;
+}
+
+.header__content {
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.header__content h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.header__content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.header__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.header__image {
+  position: relative;
+  height: 100%;
+}
+
+.header__image img {
+  position: absolute;
+  left: 25%;
+  bottom: -2rem;
+  transform: translateX(-50%);
+  max-width: 450px;
+  max-height: 600px;
+}
+
+.categories__grid {
+  margin: auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  height:100px;
+}
+
+.categories__card {
+  text-align: center;
+}
+
+.categories__card img {
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 25%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.hero__card {
+  position: relative;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-15%, -50%);
+}
+
+.hero__content p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.hero__content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.hero__content a {
+  color: var(--text-dark);
+  text-decoration: underline;
+}
+
+.hero__card img {
+  border-radius: 5px;
+}
+
+.product__grid {
+  max-width: var(--max-width-900);
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.product__card__content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.product__rating {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: goldenrod;
+}
+
+.product__card__content h4 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+}
+
+.product__card__content p {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.product__card__content p s {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-light);
+}
+
+.product__btn {
+  text-align: center;
+}
+
+.deals__container {
+  background-color: var(--primary-color-light);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.deals__image {
+  height: 100%;
+  position: relative;
+}
+
+.deals__image img {
+  position: absolute;
+  bottom: -5rem;
+  transform: translateX(-50%);
+  max-width: 550px;
+  height: 500px;
+}
+
+.deals__content {
+  max-width: 600px;
+  margin-right: auto;
+}
+
+.deals__content h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.deals__content h4 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.deals__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.deals__countdown {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.deals__countdown__card {
+  height: 80px;
+  width: 80px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.deals__countdown__card h4 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+.deals__countdown__card p {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.banner__container {
+  max-width: var(--max-width-900);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.banner__card {
+  text-align: center;
+}
+
+.banner__card span {
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.banner__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.banner__card p {
+  color: var(--text-light);
+}
+
+.blog__container {
+  background-color: var(--extra-light);
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.blog__grid {
+  max-width: var(--max-width-900);
+  margin: auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.blog__card {
+  background-color: var(--white);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog__card__content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.blog__card__content h6 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.blog__card__content h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.blog__card__content p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-light);
+
+}
+
+.footer__container {
+  max-width: var(--max-width-1200);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footer__container h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.footer__col p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.footer__col p span {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.footer__col a {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.footer__col a:hover {
+  color: var(--primary-color);
+}
+
+.instagram__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.footer__bar {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  border-top: 2px solid var(--extra-light);
+}
+
+@media (width < 900px) {
+  .nav__links {
+    display: none;
+  }
+
+  .header__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header__content {
+    margin: auto;
+    text-align: center;
+  }
+
+  .header__image {
+    min-height: 650px;
+  }
+
+  .hero__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .deals__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .deals__content {
+    margin: auto;
+    text-align: center;
+  }
+
+  .deals__countdown {
+    justify-content: center;
+  }
+
+  .deals__image {
+    min-height: 400px;
+    grid-area: 2/1/3/2;
+  }
+
+  .banner__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.btn:hover {
+  background-color: green;
+  color: var(--white);
+}
+
+img:hover {
+  transform: scale(1.1); 
+}
+.zoom-effect:not(:hover) {
+  transform: scale(1);
+}
+
+.nav__links a:hover {
+  color: green; 
+}
+
+.nav__icons a:hover i {
+  color: red; 
+}
+
+.footer__col a:hover {
+  color:blue;
+  
+}
+
+.footer__bar:hover {
+  color: var(--white);
+}
+
+.product__card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.product__btn button:hover {
+  background-color: green;
+  color: var(--white); 
+}
+
+
 
